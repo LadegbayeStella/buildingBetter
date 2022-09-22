@@ -1,28 +1,62 @@
-#myh2 h2{
-    text-decoration: underline;
-}
-#myh2 img{
-    width: 630px;
-    height: 250;
-   
-}
-ul li{
-margin-right: 80px;
-}
-button{
-    border-radius: 30px;
-    background-color: orangered;
-    width: 300px;
-    height: 55px;
-    display: inline-block;
-}
-label img{
-    border-radius: 30px;
-    margin-right: 350px;
-}
- ul button li a{
-    width: 30px;
-}
-header{
-    background-color: black;
+ #myh2 h2 {
+     text-decoration: underline;
+ }
+
+ #myh2 img {
+     width: 625px;
+     height: 650;
+
+ }
+
+ ul li {
+     margin-right: 80px;
+
+ }
+
+ header ul li a {
+     color: black;
+ }
+
+ button {
+     border-radius: 30px;
+     background-color: orangered;
+     width: 250px;
+     height: 55px;
+     display: inline-block;
+ }
+
+ label img {
+     border-radius: 30px;
+     margin-right: 350px;
+ }
+
+ ul button li a {
+     width: 30px;
+ }
+
+ header {
+     background: linear-gradient(45deg, black 50%, grey 5%);
+
+ }
+
+ img {
+     border-radius: 300px;
+     transition: 0.5s;
+ }
+
+ #first {
+     
+     width: 500px;
+     height: 300px;
+     transition: width 5s; 
+ }
+
+ #first:hover {
+     width: 300px;
+ }
+ #second{
+     
+    width: 500px;
+    height: 300px;
+    transition: width 5s; 
 }
